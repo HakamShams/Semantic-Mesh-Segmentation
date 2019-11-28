@@ -1,8 +1,10 @@
 ## Semantic Mesh Segmentation using PointNet/PointNet++
 
-The aim of this project is to explore a semantic segmentation of meshes in an outdoor urban scenario and to make use of PointNet/PointNet++, which are point based deep neural networks applicable to meshes. The implemented pipeline segments meshes semantically including pre-processing, incorporation of LiDAR point cloud with mesh, training and evaluation. The code repository is the source code of the Master thesis (Semantic Mesh Segmentation using PointNet++) at the <a href="https://www.ifp.uni-stuttgart.de/en/">Insititute of Photogrammetry (Ifp)</a>, University of Stuttgart, Germany. The original implementation of PointNet++ can be found in <a href="https://github.com/charlesq34/pointnet2">GitHub</a> by Charles R Qi et al, from Stanford University.
+The aim of this project is to explore a semantic segmentation of meshes in an outdoor urban scenario and to make use of PointNet/PointNet++, which are point based deep neural networks applicable to meshes. The implemented pipeline segments meshes semantically including pre-processing, incorporation of LiDAR point cloud with mesh, training and evaluation. The code repository is the source code of the Master thesis (Semantic Mesh Segmentation using PointNet++) at the <a href="https://www.ifp.uni-stuttgart.de/en/">Institute of Photogrammetry (Ifp)</a>, University of Stuttgart, Germany. The original implementation of PointNet++ can be found in <a href="https://github.com/charlesq34/pointnet2">GitHub</a> by Charles R Qi et al, from Stanford University.
 
-![Example](Tile-C-PointNet++.png "Textured Mesh (top left), Ground Truth (top right), Prediction (bottom left), Differences (bottom right)")
+![Example Prediction](Tile-C-PointNet++.png "Textured Mesh (top left), Ground Truth (top right), Prediction (bottom left), Differences (bottom right)")
+
+![Example Mapping](mapped-GT-LiDAR.jpg "Mapped ground truth from Mesh to LiDAR")
 
 ### Installation
 The code is tested under TF1.9 GPU version and Python 3.7 on Ubuntu 16.04. Dependencies for Python libraries like `numpy`, `h5py`, `os`, `h5py`, `sys`, `vtkplotter`, `pywavefront`, `matplotlib`, `scipy`, `sklearn`, `open3d`, etc. PointNet++ requires that you have access to GPUs, while PointNet does not.
@@ -20,8 +22,11 @@ First, find Tensorflow include and library paths.
 Then, add flags of `-I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework` to the `g++` commands (see the source code <a href="https://github.com/charlesq34/pointnet2">GitHub</a>).
 
 For example to compile customized TF operators in sampling folder under TF 1.9 and Cuda 9.0 using conda env:
+
 1- open the file tf_sampling_compile.sh
+
 2- open the folder tf_ops/sampling in the terminal
+
 3- write the commands from file tf_sampling_compile.sh in the terminal:
 
         conda activate (your conda env)
@@ -67,4 +72,4 @@ The code is released under MIT License (see LICENSE file for details).
 
 * <a href="http://stanford.edu/~rqi/pointnet" target="_blank">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a> by Qi et al. (CVPR 2017 Oral Presentation). Code and data released in <a href="https://github.com/charlesq34/pointnet">GitHub</a>.
 * <a href="http://stanford.edu/~rqi/pointnet2/" target="_blank">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017) A hierarchical feature learning framework on point clouds. The PointNet++ architecture applies PointNet recursively on a nested partitioning of the input point set. It also proposes novel layers for point clouds with non-uniform densities.
-* <a href="https://github.com/lwiniwar/alsNet" target="_blank">alsNet: Classification of 3D Point Clouds using Deep Neural Networks</a> by Copyright (c) 2018, Lukas Winiwarter, TU Wien.
+* <a href="https://github.com/lwiniwar/alsNet" target="_blank">alsNet: Classification of 3D Point Clouds using Deep Neural Networks</a> by Lukas Winiwarter, TU Wien.
