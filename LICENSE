@@ -1,6 +1,17 @@
-MIT License
+Semantic Mesh Segmentation using PointNet/PointNet++.
+Copyright (c) 2019 Hakam Shams, university of Stuttgart
 
-Copyright (c) 2019 HakamShams
+Based on:
+
+PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space.
+Copyright (c) 2017, Geometric Computation Group of Stanford University
+
+alsNet: Classification of 3D Point Clouds using Deep Neural Networks.
+Copyright (c) 2018, Lukas Winiwarter, TU Wien
+
+The MIT License (MIT):
+
+Copyright (c) 2019 Hakam Shams
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
