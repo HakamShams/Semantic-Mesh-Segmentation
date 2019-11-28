@@ -50,8 +50,7 @@ Then from these tiles we generate batches using different sampling methods. To c
 Additional preprocessing option to incorporate LiDAR features to mesh:
 
       LiDAR.py
-      statistic_LiDAR.py
-
+      
 #### Training
 To train model based on PointNet/PointNet++:
 
@@ -63,7 +62,8 @@ After training to generate predictions and evaluate the results e.g. based on kN
       predict_knn.py
       evaluate_mesh.py
 
-A visualization tool can be found in `evaluate_mesh.py`.
+A visualization tool can be found in `evaluate_mesh.py` and `statistic_LiDAR.py`       
+.
 
 ### License
 The code is released under MIT License (see LICENSE file for details).
