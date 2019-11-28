@@ -4,7 +4,7 @@ The aim of this project is to explore a semantic segmentation of meshes in an ou
 
 ![Example Prediction](Tile-C-PointNet++.png "Textured Mesh (top left), Ground Truth (top right), Prediction (bottom left), Differences (bottom right)")
 
-![Example Mapping](mapped-GT-LiDAR.jpg "Mapped ground truth from Mesh to LiDAR")
+![Example Mapping](Tile-A-Mapped-GT.jpg "Mapped ground truth from Mesh to LiDAR")
 
 ### Installation
 The code is tested under TF1.9 GPU version and Python 3.7 on Ubuntu 16.04. Dependencies for Python libraries like `numpy`, `h5py`, `os`, `h5py`, `sys`, `vtkplotter`, `pywavefront`, `matplotlib`, `scipy`, `sklearn`, `open3d`, etc. PointNet++ requires that you have access to GPUs, while PointNet does not.
