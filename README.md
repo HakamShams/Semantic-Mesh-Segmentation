@@ -62,8 +62,9 @@ After training to generate predictions and evaluate the results e.g. based on kN
       predict_knn.py
       evaluate_mesh.py
 
-A visualization tool can be found in `evaluate_mesh.py` and `statistic_LiDAR.py`       
-.
+A visualization tool can be found in `evaluate_mesh.py` and `statistic_LiDAR.py`
+
+Simple grid search for Random forest classifier can be found in `Random_Forest.py`
 
 ### License
 The code is released under MIT License (see LICENSE file for details).
