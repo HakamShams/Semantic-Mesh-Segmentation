@@ -5,7 +5,7 @@ Utility mesh function for mesh visualization
 Author: Hakam Shams
 Date: Novemebr 2019
 
-Input:  test_file      : h5 file includes data and prediction of the tile, e.g. from evaluation_knn.py
+Input:  test_file      : h5 file includes data and prediction of the tile, e.g. from predict_knn.py
         obj_file       : obj file
         class_names    : names of classes
         rgb_color      : color map for classes
