@@ -100,7 +100,7 @@ for i in y_lim:
 
         if mode == 'train':
             h, _ = np.histogram(data_cur[:,-1])
-            st = np.std(h/float(np.sum(h)))
+            st = np.std(h/float(np.sum(h)), ddof=1)
 
             if st > std:
                 continue
