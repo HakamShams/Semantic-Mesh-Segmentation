@@ -78,3 +78,4 @@ The code is released under MIT License (see LICENSE file for details).
 ### Related Papers
 
 * <a href="https://www.dgpf.de/src/tagung/jt2020/proceedings/proceedings/papers/27_DGPF2020_Laupheimer_et_al.pdf" target="_blank">The Importance of Radiometric Feature Quality for Semantic Mesh Segmentation</a> by D. Laupheimer, M. H. Shams Eddin, N. Haala. 40. Wissenschaftlich-Technische Jahrestagung der DGPF in Stuttgart – Publikationen der DGPF, Band 29, 2020, pp. 205-218.
+* <a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/509/2020/isprs-annals-V-2-2020-509-2020.pdf" target="_blank">On The Association Of Lidar Point Clouds And Textured Meshes For Multi-ModaL Semantic Segmentation</a> by D. Laupheimer, M. H. Shams Eddin, N. Haala. ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., V-2-2020, 509–516, https://doi.org/10.5194/isprs-annals-V-2-2020-509-2020, 2020.
